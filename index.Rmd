@@ -288,14 +288,22 @@ Paula Moraga, Assistant Professor in Statistics for Public Health
 (KAUST)
 ]
 .column[
-
-
-----
-
 ]
 
 ---
 
+
+class: center, middle
+background-size: contain
+background-color: #FFFFFF
+background-position: bottom
+background-size: 50%
+
+#### Learn how to make packages, data viz, and more in RLadies
+
+<img src="figs/meetup_rladies2.png"width= 80%>
+
+---
 
 
 class:  inverse
