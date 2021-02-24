@@ -240,7 +240,7 @@ class: inverse, center, middle
 
 `git pull` = Fetch and download content from a remote repository and immediately update the local repository to match that content
 
-We will use WiDS-ex repo
+We will use glosario repo, ou can also use WiDS-ex repo in my account
 
 ---
 
@@ -259,7 +259,7 @@ class: inverse, center, middle
 `git checkout master/main` = Go back to the master branch
 
 
-We will use glosario repo
+We will use glosario repo, ou can also use WiDS-ex repo in my account
 
 
 ---
@@ -303,11 +303,19 @@ class: inverse, center, middle
 
 ## What now?
 
+--
+
 You can easily contributing to open-source, improve employability
+
+--
 
 You will learn programming and coding, have others review your code.
 
+--
+
 You will not be (useless) data scientist 
+
+--
 
 You will start build tools and packages
 
