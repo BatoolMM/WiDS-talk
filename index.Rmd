@@ -1,0 +1,255 @@
+---
+title: "Collaborating on Open Data Science Projects"
+subtitle: "Talk @ WiDS"
+author: Dr. Batool Almarzouq
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["default", "css/grayscale.css", "css/font.css", "ninjutsu"]
+    seal: false 
+    lib_dir: libs
+    nature:
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+      highlightStyle: solarized-light
+      highlightLanguage: ["r", "css", "yaml"]
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+---
+
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE, servr.interval = 0.05)
+knitr::opts_chunk$set(collapse = TRUE, fig.retina = 3)
+library(xaringanExtra)
+library(xaringan)
+```
+
+```{r share-again, echo=FALSE}
+xaringanExtra::use_share_again()
+```
+
+class: title-slide, center, top
+background-image: url(figs/PR.jpg)
+background-size: contain
+background-color: #FFFFFF
+background-position: bottom
+background-size: 65%
+
+
+#### `r rmarkdown::metadata$title`
+
+#### `r rmarkdown::metadata$author`- @batool664
+
+---
+
+class: left, inverse
+
+# A little bit about me!
+
+- A computational biologist affiliated with the University of Liverpool.
+- Founder of RLadies Chapter in Saudi Arabia (Dammam).
+- A curator in the R Weekly team.
+- Member of MiR accessibility committee.
+- Member in the turing way community.
+- Working on establishing an Open Science community in Saudi Arabia.
+
+# Acknowledgment
+
+- The Carpentries
+- The Turing Way
+- Molecular Sciences Software Institute (MolSSI)
+- Alison Presmanes Hill (slides)
+
+---
+
+class: inverse, center, middle
+
+## What is the percentage of reproducible research?
+
+---
+
+class: center, middle
+
+background-image: url(figs/reproducibility-circle2.png)
+background-size: 90%
+background-color: #f3f3f3
+
+.footnote[Credit:  Key results of the survey on reproducibility conducted by Nature in 2016]
+
+---
+
+class: inverse, center, middle
+
+# How can we overcome the reproducibility crisis?
+
+## So, how can we make these methods available and accessible for researchers, while ensuring that scientific results remain reproducible?
+
+---
+
+class: inverse, center, middle
+
+# How can you improve the reproducibility of your data science project?
+
+--
+
+### OPEN SOURCE SOFTWARE
+
+--
+
+### SHARE CODE/ANALYSIS
+
+--
+
+### Share Computational ENVIRONMENT
+
+--
+
+### VERSION CONTROL
+
+--
+
+### TESTING
+
+--
+
+### DOCUMENTATION
+
+--
+
+### OPEN DATA/FAIR DATA
+
+--
+
+### OPEN ACCESS
+
+---
+
+class: inverse, center, middle
+
+# This is called Open Science. 
+## Open Science is about extending the principles of openness to the whole research cycle, fostering sharing and collaboration as early as possible thus entailing a systemic change to the way science and research is done
+
+---
+
+class: center, bottom
+background-image: url(figs/Fair-principles.jpg)
+background-size: contain
+background-size: 70%
+background-color: #ffffff
+
+class: left, bottom
+.footnote[.red.bold[*] The Turing Way project illustration by Scriberia. Zenodo. http://doi.org/10.5281/zenodo.3332807]
+
+---
+
+class: inverse, center, middle
+
+# Why do we use version control (git)?
+
+---
+
+#### Version Control in the Old Days ..
+
+.pull-left[
+<img src="figs/version-control1.png" width = 60%>]
+.pull-right[
+<img src="figs/version-control2.jpeg" width = 75%>
+]
+
+---
+
+#### Real Version Control (including backup)
+
+<img src="figs/github-vc.jpg" width = 99% center>
+
+---
+
+class: center, middle, inverse
+
+## In the pandemic, some publishers have “opened” their journals to make certain articles freely available.
+
+--
+
+## Databases have been created that are completely open access, such as the Open COVID Pledge.
+
+---
+
+class: center, middle, inverse
+
+## UNESCO is launching international consultations aimed at developing a Recommendation on Open Science for adoption by member states in 2021
+
+--
+
+## There is a network of Open Science Communities in Netherlands, Sweden, Germany, UK and others
+
+---
+
+class: center, left, inverse
+
+## In line with vision 2030, we are starting an Open Science Community in Saudi Arabia.
+## It's created and developed with the help of the "Open Life Sciences"
+<img src="figs/open-lif-sci-logo.jpeg">
+
+Open Life Sciences (OLS3) program helps individuals and stakeholders in research to become Open Science ambassadors.
+
+---
+class: center, left, inverse
+
+We want to provide a place where newcomers and experienced peers interact, inspire each other to embed open science (research) practices and values in their workflows and provide feedback on policies, infrastructures and support services. Together working to make Open Science the norm. So we are calling out to researchers and colleagues in Saudi Arabia.  
+
+.column[
+<img src="figs/profile.jpeg" width= 95%>
+Batool Almarzouq
+The University of Liverpool
+]
+.column[
+<img src="figs/anelda.jpeg" width= 95%>
+Founder and director of Talarify, Mentor OLS3
+]
+.column[
+<img src="figs/paula-moraga.jpeg" width= 95%>
+Paula Moraga, Assistant Professor in Statistics for Public Health
+(KAUST)
+]
+.column[
+
+
+----
+
+]
+
+---
+
+
+
+class:  inverse
+
+## Resources: 
+- [The Turing Way](https://the-turing-way.netlify.app)
+
+- [The CMU ML Blog](https://blog.ml.cmu.edu/2020/08/31/5-reproducibility/)
+
+- [Redesign open science for Asia, Africa and Latin America](https://www.nature.com/articles/d41586-020-03052-3)
+
+- [Open Science Beyond Open Access: For and with communities, A step towards the decolonization of knowledge
+](https://zenodo.org/record/3946773#.YCzVmBMzY1I)
+
+- [Embracing science as it is: beyond Nobel-like research](https://www.youtube.com/watch?v=YTwM10Qob5k)
+
+- [Review on the Application of Machine Learning Algorithms in the Sequence Data Mining of DNA](https://www.frontiersin.org/articles/10.3389/fbioe.2020.01032/full)
+
+---
+
+class:  center, middle, inverse
+
+# Thank you so much!
+
+## batool@liverpool.ac.uk
+
+## Twitter: @batool664
+
+## Join RLadiesDammam: @RLadiesDammam
