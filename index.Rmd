@@ -147,7 +147,7 @@ class: inverse, center, middle
 --
 
 
-### OPEN ACCESS
+### LICENSE
 
 ---
 
@@ -179,59 +179,120 @@ class: inverse, center, middle
 <img src="figs/github-vc.jpg" width = 99% center>
 
 ---
-## In this workshop, you'll learn:
+#### In this workshop, you'll learn:
 
 --
 
-#### How vrsion control system can be leveraged as an electronic lab notebook for computational work
+#### How vrsion control system can be leveraged as an electronic lab notebook for computational work.
 
 --
 
-#### Learn why adding licensing information to a repository is important, and how to choose a proper license
+#### Learn why adding licensing information to a repository is important, and how to choose a proper license.
 
 --
 
-#### Make your work easy to cite
+#### Make your work easy to cite!
 ---
 
 class: inverse, center, middle
 
 # The 1st part: How to create a repo from your local machine
 
+We will use the term repository which means your folder
+
+--
+
+`git init` = initiate a repository
+
+--
+
+`git add` = track this file
+
+--
+
+`git commit` = save these changes
+
+--
+
+`git push` =  transfer these changes to the remote
+
+--
+
+`git status` = displays the state of the working directory and the staging area
+
+Let's try, we'll use new project!
 ---
 
 class: inverse, center, middle
 
 # The 2nd part: How to use a public repo in Github
-We ill use WiDS-ex repo
+--
 
----
+`fork` = Forking a repository allows you to freely experiment with changes without affecting the original project
 
-class: inverse, center, middle
+--
 
-# The 3rd part: How to submit a PR?
-We will use glasario repo
+`git clone` = Make a local copy in my local machine
 
----
+--
 
-class: inverse, center, middle
+`git pull` = Fetch and download content from a remote repository and immediately update the local repository to match that content
 
-# The 4th part: How to solve any conflict?
-Examples from screenshot
-
----
-
-class: inverse, center, middle
-
-# The 5th part: How to add a licensing information?
 We will use WiDS-ex repo
 
 ---
 
 class: inverse, center, middle
 
+# The 3rd part: How to submit a PR?
+
+<img src="figs/branch.png">
+
+--
+
+`git checkout -b BRANCH-NAME` = Create a branch tp prevent conflict
+
+--
+
+`git checkout master/main` = Go back to the master branch
+
+
+We will use glosario repo
+
+
+---
+
+class: inverse, center, middle
+
+# The 4th part: How to solve any conflict?
+
+<img src="figs/conflict.png" width= 40%>
+
+--
+
+`git log` = Shows all the commits
+
+--
+
+`git merge` = Merge any changes from two branches unless there is a conflict
+
+--
+
+`git checkout COMMIT_ID` = Revert back in time
+
+---
+
+class: inverse, center, middle
+
+# The 5th part: How to add a licensing information?
+We will use WiDS-ex repo to add `LICENSE`
+
+---
+
+class: inverse, center, middle
+
 # The 6th part: How to add a DOI and make your work citable?
-We will use WiDS workshop repo
+We will use WiDS workshop repo and Zenodo
 
 ---
 
